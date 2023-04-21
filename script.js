@@ -42,5 +42,5 @@ const studentAdded = (e) => {
     localStorage.setItem("studentList", JSON.stringify(studentList));
 };
 
-let submit = document.getElementById("submit");
-submit.addEventListener("click", studentAdded);
+let submitButton = document.getElementById("submit");
+submitButton.addEventListener("click", studentAdded);
